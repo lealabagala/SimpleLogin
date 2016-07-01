@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="323.0" prefWidth="277.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="SampleFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="21.0" prefHeight="249.0" prefWidth="224.0" text="Welcome to Apollo!" textAlignment="CENTER" textFill="#ae3434" wrapText="true">
+         <font>
+            <Font name="Ubuntu" size="47.0" />
+         </font>
+      </Label>
+      <Button fx:id="quitBtn" layoutX="90.0" layoutY="235.0" mnemonicParsing="false" onAction="#handleQuitButtonAction" prefHeight="44.0" prefWidth="99.0" text="Quit" textFill="#227922">
+         <font>
+            <Font name="Ubuntu Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
